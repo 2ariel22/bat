@@ -1,0 +1,29 @@
+nav{
+    width: 100vw;
+}
+.navBar{
+    
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d6968;
+    margin: 0px;
+    
+}
+
+.logo{
+    border-radius: 999px;
+    width: 4rem;
+}
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    background-color: #13a2a0;
+    border-radius: 999px;
+}
+.navBar li a:hover {
+    background-color: #0d6968;
+}
